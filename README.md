@@ -25,22 +25,30 @@ Travaux pratiques sur la bibliothèque **pandas** appliqués à un jeu de donné
 ## Lancer le notebook
 
 ```bash
-# Créer l'environnement
+# 1. Créer un environnement virtuel isolé
 python -m venv env
-source env/bin/activate
+source env/bin/activate        # macOS / Linux
+# env\Scripts\activate         # Windows
 
-# Installer les dépendances
-pip install pandas matplotlib seaborn openpyxl scipy jupyter
+# 2. Installer les dépendances exactes
+pip install -r requirements.txt
 
-# Lancer Jupyter
+# 3. Lancer Jupyter
 jupyter notebook tp_pandas.ipynb
 ```
 
-## Dépendances
+> L'environnement virtuel est isolé — il n'utilise pas les packages installés sur le système.
 
-- Python ≥ 3.10
-- pandas
-- matplotlib
-- seaborn
-- openpyxl
-- scipy
+## Dépendances (requirements.txt)
+
+| Package | Version |
+|---|---|
+| pandas | 3.0.3 |
+| numpy | 2.5.0 |
+| matplotlib | 3.11.0 |
+| seaborn | 0.13.2 |
+| openpyxl | 3.1.5 |
+| scipy | 1.18.0 |
+| notebook | 7.6.0 |
+
+Python ≥ 3.10 requis.
