@@ -1,0 +1,11 @@
+produit,categorie,quantite,prix_unitaire,ville,mois
+Stylo,Ecriture,10,1.5,Paris,Jan
+Cahier,Papeterie,25,3.0,Lyon,Jan
+Règle,Mesure,5,2.5,Paris,Jan
+Gomme,Ecriture,30,0.5,Marseille,Jan
+Crayon,Ecriture,20,0.8,Lyon,Jan
+Stylo,Ecriture,15,1.5,Paris,Fev
+Cahier,Papeterie,10,3.0,Paris,Fev
+Règle,Mesure,8,2.5,Lyon,Fev
+Gomme,Ecriture,45,0.5,Marseille,Fev
+Crayon,Ecriture,12,0.8,Paris,Fev
